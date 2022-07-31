@@ -7,9 +7,9 @@ structure:
 containers:
   hosts:
     container1:
-      ansible_host:
+      ansible_host: addr
     container2:
-      ansible_host
+      ansible_host: addr
 etc.
 ```
 The file will be created in directory in which script was ran.
